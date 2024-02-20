@@ -91,7 +91,11 @@ const Cart = () => {
                     </p>
 
                     <div className="d-flex justify-content-between align-items-center">
-                      
+                      <p className="card-text">
+                        <small className="text text-muted">
+                         
+                        </small>
+                      </p>
 
                       <div className="d-flex flex-row justify-content-between align-items-center">
                         <button
