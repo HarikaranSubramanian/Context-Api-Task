@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../App";
 
-
 const Cart = () => {
   let { product, setProduct } = useContext(UserContext);
 
@@ -25,7 +24,6 @@ const Cart = () => {
           setProduct(product);
         };
         const removebtnQuantity = () => {
-         
           setProduct((prevProducts) =>
             prevProducts.map((item) =>
               item === e ? { ...item, quantity: 0 } : item
@@ -33,8 +31,6 @@ const Cart = () => {
           );
           setQuantity(0);
         };
-
-
 
         return (
           <div
@@ -92,9 +88,7 @@ const Cart = () => {
 
                     <div className="d-flex justify-content-between align-items-center">
                       <p className="card-text">
-                        <small className="text text-muted">
-                         Sale
-                        </small>
+                        <small className="text text-muted">Sale</small>
                       </p>
 
                       <div className="d-flex flex-row justify-content-between align-items-center">
