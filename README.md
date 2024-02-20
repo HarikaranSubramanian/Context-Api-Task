@@ -19,3 +19,7 @@ This is a simple React application that demonstrates a basic shopping cart funct
  src/App.js: The main application file where the product data is defined and the Cart component is rendered.
 ## Product Data
  The product data is defined in the App.js file using an array of objects. Each object represents a product with details such as id, title, description, price, discount, rating, stock, brand, category, thumbnail, and image.
+
+ ## Deployment
+
+The application is deployed and can be accessed here : [Context-Cart-Api](https://netlify-contextapi-task.netlify.app)
