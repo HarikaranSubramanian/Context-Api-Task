@@ -93,7 +93,7 @@ const Cart = () => {
                     <div className="d-flex justify-content-between align-items-center">
                       <p className="card-text">
                         <small className="text text-muted">
-                         
+                         Sale
                         </small>
                       </p>
 
