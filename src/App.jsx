@@ -16,7 +16,8 @@ function App() {
       brand: "Apple",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      image: "https://i.dummyjson.com/data/products/1/1.jpg",
+      image:
+        "https://i.pinimg.com/564x/da/c5/9f/dac59f48a77524ada600c068c0d273de.jpg",
     },
     {
       id: 2,
@@ -30,7 +31,8 @@ function App() {
       brand: "Apple",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/2/thumbnail. jpg",
-      image: "https://i.dummyjson.com/data/products/2/1.jpg",
+      image:
+        "https://i.pinimg.com/564x/94/c9/dd/94c9dd480f1decac36d47ab6e02e2c6a.jpg",
     },
     {
       id: 3,
@@ -44,7 +46,8 @@ function App() {
       brand: "Samsung",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      image: "https://i.dummyjson.com/data/products/3/1.jpg",
+      image:
+        "https://i.pinimg.com/564x/65/e6/f7/65e6f75a8c75297c37940b9909733494.jpg",
     },
     {
       id: 4,
@@ -57,7 +60,8 @@ function App() {
       brand: "OPPO",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      image: "https://i.dummyjson.com/data/products/4/3.jpg",
+      image:
+        "https://i.pinimg.com/564x/2f/d9/90/2fd990d4805f640bae3572ec8ea43a94.jpg",
     },
     {
       id: 5,
@@ -71,7 +75,8 @@ function App() {
       brand: "Huawei",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail. jpg",
-      image: "https://cdn.dummyjson.com/product-images/5/1.jpg",
+      image:
+        "https://i.pinimg.com/564x/cc/24/91/cc2491e304b68b2a1d2eff5d0baa436d.jpg",
     },
   ]);
 
@@ -79,7 +84,7 @@ function App() {
     <>
       <UserContext.Provider value={{ product, setProduct }}>
         <div className="container my-5">
-         <Cart />
+          <Cart />
         </div>
       </UserContext.Provider>
     </>
